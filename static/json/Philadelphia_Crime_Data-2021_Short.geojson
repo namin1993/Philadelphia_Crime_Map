@@ -1,0 +1,1280 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20606,39.9779 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2659541,
+    "the_geom_webmercator":"",
+    "objectid":2763840,
+    "dc_dist":16,
+    "psa":"1",
+    "dispatch_date_time":"9/6/21 18:01",
+    "dispatch_date":"9/6/21",
+    "dispatch_time":"18:01:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"JAPANESE HOUSE @ 4301 LANSDOWNE DR ",
+    "ucr_general":600,
+    "text_general_code":"Theft from Vehicle",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20606,39.9779 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2659585,
+    "the_geom_webmercator":"",
+    "objectid":2763841,
+    "dc_dist":16,
+    "psa":"1",
+    "dispatch_date_time":"10/17/21 10:16",
+    "dispatch_date":"10/17/21",
+    "dispatch_time":"10:16:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"JAPANESE HOUSE @ 4301 LANSDOWNE DR ",
+    "ucr_general":600,
+    "text_general_code":"Theft from Vehicle",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.088249,40.070518 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2660061,
+    "the_geom_webmercator":"",
+    "objectid":2763842,
+    "dc_dist":2,
+    "psa":"3",
+    "dispatch_date_time":"6/11/21 10:04",
+    "dispatch_date":"6/11/21",
+    "dispatch_time":"10:04:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"JEANES HOSPITAL @ 7600 CENTRAL AV ",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20606,39.9779 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2660966,
+    "the_geom_webmercator":"",
+    "objectid":2763442,
+    "dc_dist":16,
+    "psa":"1",
+    "dispatch_date_time":"5/30/21 16:33",
+    "dispatch_date":"5/30/21",
+    "dispatch_time":"16:33:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"JAPANESE HOUSE @ 4301 LANSDOWNE DR ",
+    "ucr_general":600,
+    "text_general_code":"Theft from Vehicle",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20606,39.9779 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2661571,
+    "the_geom_webmercator":"",
+    "objectid":2763443,
+    "dc_dist":16,
+    "psa":"1",
+    "dispatch_date_time":"7/13/21 12:02",
+    "dispatch_date":"7/13/21",
+    "dispatch_time":"12:02:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"JAPANESE HOUSE @ 4301 LANSDOWNE DR ",
+    "ucr_general":600,
+    "text_general_code":"Theft from Vehicle",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2661830,
+    "the_geom_webmercator":"",
+    "objectid":2764288,
+    "dc_dist":39,
+    "psa":"2",
+    "dispatch_date_time":"6/22/21 2:53",
+    "dispatch_date":"6/22/21",
+    "dispatch_time":"2:53:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 1400 W ONTARIO ST ",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault No Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2661959,
+    "the_geom_webmercator":"",
+    "objectid":2764289,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"4/19/21 10:10",
+    "dispatch_date":"4/19/21",
+    "dispatch_time":"10:10:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2662218,
+    "the_geom_webmercator":"",
+    "objectid":2764290,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"8/7/21 23:17",
+    "dispatch_date":"8/7/21",
+    "dispatch_time":"23:17:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault No Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2662436,
+    "the_geom_webmercator":"",
+    "objectid":2764291,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"9/9/21 18:39",
+    "dispatch_date":"9/9/21",
+    "dispatch_time":"18:39:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2662654,
+    "the_geom_webmercator":"",
+    "objectid":2764292,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"10/28/21 8:40",
+    "dispatch_date":"10/28/21",
+    "dispatch_time":"8:40:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2663431,
+    "the_geom_webmercator":"",
+    "objectid":2764293,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"7/20/21 23:30",
+    "dispatch_date":"7/20/21",
+    "dispatch_time":"23:30:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2663644,
+    "the_geom_webmercator":"",
+    "objectid":2764294,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"9/16/21 21:29",
+    "dispatch_date":"9/16/21",
+    "dispatch_time":"21:29:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":300,
+    "text_general_code":"Robbery Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2663817,
+    "the_geom_webmercator":"",
+    "objectid":2764295,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"11/30/21 10:00",
+    "dispatch_date":"11/30/21",
+    "dispatch_time":"10:00:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":300,
+    "text_general_code":"Robbery No Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.13371003,39.97880473 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000D27F83B48EC852C09342307949FD4340",
+    "cartodb_id":2691798,
+    "the_geom_webmercator":"0101000020110F00005C7EE295D1E75FC104C4FBADE38C5241",
+    "objectid":2697571,
+    "dc_dist":26,
+    "psa":"2",
+    "dispatch_date_time":"10/13/21 13:16",
+    "dispatch_date":"10/13/21",
+    "dispatch_time":"13:16:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"1900 BLOCK N FRONT ST",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.13371003,
+    "point_y":39.97880473
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.08532514,40.03301143 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000E77493F775C552C0421FF2B739044440",
+    "cartodb_id":2691799,
+    "the_geom_webmercator":"0101000020110F000035CC470A8FE25FC177AE872495945241",
+    "objectid":2697572,
+    "dc_dist":2,
+    "psa":"1",
+    "dispatch_date_time":"2/13/21 12:42",
+    "dispatch_date":"2/13/21",
+    "dispatch_time":"12:42:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"5700 BLOCK OXFORD AVE",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.08532514,
+    "point_y":40.03301143
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.08532514,40.03301143 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000E77493F775C552C0421FF2B739044440",
+    "cartodb_id":2691800,
+    "the_geom_webmercator":"0101000020110F000035CC470A8FE25FC177AE872495945241",
+    "objectid":2697573,
+    "dc_dist":2,
+    "psa":"1",
+    "dispatch_date_time":"2/23/21 8:35",
+    "dispatch_date":"2/23/21",
+    "dispatch_time":"8:35:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"5700 BLOCK OXFORD AVE",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.08532514,
+    "point_y":40.03301143
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.10916963,39.99230477 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E610000040A49DA2FCC652C04B68BBD703FF4340",
+    "cartodb_id":2691801,
+    "the_geom_webmercator":"0101000020110F0000C67218A126E55FC1730EEE05CE8E5241",
+    "objectid":2697966,
+    "dc_dist":24,
+    "psa":"3",
+    "dispatch_date_time":"7/18/21 8:58",
+    "dispatch_date":"7/18/21",
+    "dispatch_time":"8:58:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"2100 BLOCK E ALLEGHENY AV",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.10916963,
+    "point_y":39.99230477
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1761176,39.92260635 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000000010C18245CB52C07D2A02F717F64340",
+    "cartodb_id":2691802,
+    "the_geom_webmercator":"0101000020110F0000021463C86DEC5FC1A840AE80EB845241",
+    "objectid":2697967,
+    "dc_dist":1,
+    "psa":"1",
+    "dispatch_date_time":"4/12/21 12:51",
+    "dispatch_date":"4/12/21",
+    "dispatch_time":"12:51:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"2300 BLOCK S BOUVIER ST",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.1761176,
+    "point_y":39.92260635
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15466172,40.00219284 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000F55545FAE5C952C0ED0AE0DA47004440",
+    "cartodb_id":2691803,
+    "the_geom_webmercator":"0101000020110F0000FD2A19AB18EA5FC1413B4C3C35905241",
+    "objectid":2697968,
+    "dc_dist":39,
+    "psa":"2",
+    "dispatch_date_time":"10/29/21 16:10",
+    "dispatch_date":"10/29/21",
+    "dispatch_time":"16:10:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"1500 BLOCK W ALLEGHENY AV",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.15466172,
+    "point_y":40.00219284
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15466172,40.00219284 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000F55545FAE5C952C0ED0AE0DA47004440",
+    "cartodb_id":2691804,
+    "the_geom_webmercator":"0101000020110F0000FD2A19AB18EA5FC1413B4C3C35905241",
+    "objectid":2697969,
+    "dc_dist":39,
+    "psa":"2",
+    "dispatch_date_time":"11/22/21 20:22",
+    "dispatch_date":"11/22/21",
+    "dispatch_time":"20:22:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"1500 BLOCK W ALLEGHENY AV",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.15466172,
+    "point_y":40.00219284
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14316751,39.97988679 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000002F530FA829C952C08D6A2AEE6CFD4340",
+    "cartodb_id":2691805,
+    "the_geom_webmercator":"0101000020110F0000AE2134C9D8E85FC17DFE6DFA0A8D5241",
+    "objectid":2697970,
+    "dc_dist":26,
+    "psa":"2",
+    "dispatch_date_time":"12/8/21 20:40",
+    "dispatch_date":"12/8/21",
+    "dispatch_time":"20:40:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"500 BLOCK W BERKS ST",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault Firearm",
+    "point_x":-75.14316751,
+    "point_y":39.97988679
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14316751,39.97988679 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000002F530FA829C952C08D6A2AEE6CFD4340",
+    "cartodb_id":2691806,
+    "the_geom_webmercator":"0101000020110F0000AE2134C9D8E85FC17DFE6DFA0A8D5241",
+    "objectid":2697971,
+    "dc_dist":26,
+    "psa":"2",
+    "dispatch_date_time":"4/28/21 16:08",
+    "dispatch_date":"4/28/21",
+    "dispatch_time":"16:08:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"500 BLOCK W Berks St",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault No Firearm",
+    "point_x":-75.14316751,
+    "point_y":39.97988679
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.06853983,40.04332657 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000B314E2F462C452C053999CB98B054440",
+    "cartodb_id":2691807,
+    "the_geom_webmercator":"0101000020110F0000F9DA38E8BBE05FC1EE5C29180C965241",
+    "objectid":2697972,
+    "dc_dist":2,
+    "psa":"1",
+    "dispatch_date_time":"12/19/21 16:09",
+    "dispatch_date":"12/19/21",
+    "dispatch_time":"16:09:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"6800 BLOCK SOUDER ST",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.06853983,
+    "point_y":40.04332657
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15379962,40.00171591 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E610000062825CDAD7C952C09CAA183A38004440",
+    "cartodb_id":2691808,
+    "the_geom_webmercator":"0101000020110F00001BB91CAD00EA5FC1B97993E823905241",
+    "objectid":2697973,
+    "dc_dist":39,
+    "psa":"3",
+    "dispatch_date_time":"7/19/21 15:26",
+    "dispatch_date":"7/19/21",
+    "dispatch_time":"15:26:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"W ALLEGHENY AV  & N CARLISLE ST ",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault No Firearm",
+    "point_x":-75.15379962,
+    "point_y":40.00171591
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16320179,39.91519279 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000B7ACEBE571CA52C0E14A8F0925F54340",
+    "cartodb_id":2691809,
+    "the_geom_webmercator":"0101000020110F0000D1BE605606EB5FC11D4A087EDE835241",
+    "objectid":2697974,
+    "dc_dist":3,
+    "psa":"3",
+    "dispatch_date_time":"7/31/21 20:43",
+    "dispatch_date":"7/31/21",
+    "dispatch_time":"20:43:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"900 BLOCK OREGON AV",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.16320179,
+    "point_y":39.91519279
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16320179,39.91519279 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000B7ACEBE571CA52C0E14A8F0925F54340",
+    "cartodb_id":2691810,
+    "the_geom_webmercator":"0101000020110F0000D1BE605606EB5FC11D4A087EDE835241",
+    "objectid":2697975,
+    "dc_dist":3,
+    "psa":"3",
+    "dispatch_date_time":"10/11/21 8:06",
+    "dispatch_date":"10/11/21",
+    "dispatch_time":"8:06:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"900 BLOCK OREGON AV",
+    "ucr_general":600,
+    "text_general_code":"Theft from Vehicle",
+    "point_x":-75.16320179,
+    "point_y":39.91519279
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16320179,39.91519279 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000B7ACEBE571CA52C0E14A8F0925F54340",
+    "cartodb_id":2691811,
+    "the_geom_webmercator":"0101000020110F0000D1BE605606EB5FC11D4A087EDE835241",
+    "objectid":2697976,
+    "dc_dist":3,
+    "psa":"3",
+    "dispatch_date_time":"12/15/21 22:25",
+    "dispatch_date":"12/15/21",
+    "dispatch_time":"22:25:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"900 BLOCK OREGON AV",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault No Firearm",
+    "point_x":-75.16320179,
+    "point_y":39.91519279
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14613362,40.03419503 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000C0AFD3405AC952C093C4B38060044440",
+    "cartodb_id":2691812,
+    "the_geom_webmercator":"0101000020110F00005E2D19552BE95FC1461FCB29C0945241",
+    "objectid":2697977,
+    "dc_dist":35,
+    "psa":"3",
+    "dispatch_date_time":"7/21/21 18:22",
+    "dispatch_date":"7/21/21",
+    "dispatch_time":"18:22:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"5300 BLOCK N BROAD ST",
+    "ucr_general":300,
+    "text_general_code":"Robbery No Firearm",
+    "point_x":-75.14613362,
+    "point_y":40.03419503
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.11473423,40.04543368 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000003B653DCE57C752C054DE54C5D0054440",
+    "cartodb_id":2691862,
+    "the_geom_webmercator":"0101000020110F000008AACB7DC1E55FC1A8F6ADB158965241",
+    "objectid":2698813,
+    "dc_dist":35,
+    "psa":"1",
+    "dispatch_date_time":"7/10/21 22:02",
+    "dispatch_date":"7/10/21",
+    "dispatch_time":"22:02:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"100 BLOCK E GODFREY AV",
+    "ucr_general":500,
+    "text_general_code":"Burglary Residential",
+    "point_x":-75.11473422,
+    "point_y":40.04543368
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.11473423,40.04543368 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000003B653DCE57C752C054DE54C5D0054440",
+    "cartodb_id":2691863,
+    "the_geom_webmercator":"0101000020110F000008AACB7DC1E55FC1A8F6ADB158965241",
+    "objectid":2698814,
+    "dc_dist":35,
+    "psa":"1",
+    "dispatch_date_time":"12/16/21 11:28",
+    "dispatch_date":"12/16/21",
+    "dispatch_time":"11:28:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"100 BLOCK E GODFREY AV",
+    "ucr_general":500,
+    "text_general_code":"Burglary Residential",
+    "point_x":-75.11473422,
+    "point_y":40.04543368
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2663817,
+    "the_geom_webmercator":"",
+    "objectid":2764295,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"11/30/21 10:00",
+    "dispatch_date":"11/30/21",
+    "dispatch_time":"10:00:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":300,
+    "text_general_code":"Robbery No Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14345438,40.00509745 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E610000059A4475B2EC952C081858208A7004440",
+    "cartodb_id":2738464,
+    "the_geom_webmercator":"0101000020110F00001C6EFEC4E0E85FC1572780C39E905241",
+    "objectid":2755721,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"5/3/21 14:11",
+    "dispatch_date":"5/3/21",
+    "dispatch_time":"14:11:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"3500 BLOCK N 9TH ST",
+    "ucr_general":900,
+    "text_general_code":"Arson",
+    "point_x":-75.14345438,
+    "point_y":40.00509746
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15790767,40.02371299 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000019CC5281BCA52C02B45FA0609034440",
+    "cartodb_id":2739217,
+    "the_geom_webmercator":"0101000020110F000061C9B20073EA5FC15F2A403243935241",
+    "objectid":2754494,
+    "dc_dist":35,
+    "psa":"2",
+    "dispatch_date_time":"2/22/21 2:39",
+    "dispatch_date":"2/22/21",
+    "dispatch_time":"2:39:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"N 20TH ST  /  WINDRIM AV",
+    "ucr_general":900,
+    "text_general_code":"Arson",
+    "point_x":-75.15790767,
+    "point_y":40.02371299
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.26176203,39.97596324 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000D08B87B5C0D052C0F8F20A5DECFC4340",
+    "cartodb_id":2691813,
+    "the_geom_webmercator":"0101000020110F0000C4E49F41BDF55FC1D18C017C7C8C5241",
+    "objectid":2697978,
+    "dc_dist":19,
+    "psa":"1",
+    "dispatch_date_time":"7/30/21 23:14",
+    "dispatch_date":"7/30/21",
+    "dispatch_time":"23:14:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"7300 BLOCK RUSKIN RD",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.26176203,
+    "point_y":39.97596324
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.99871989,40.09705108 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000008B5AD406EBBF52C01C52772B6C0C4440",
+    "cartodb_id":2974446,
+    "the_geom_webmercator":"0101000020110F0000FA38BBD324D95FC1DC0613E1AD9D5241",
+    "objectid":3318531,
+    "dc_dist":8,
+    "psa":"3",
+    "dispatch_date_time":"1/28/21 0:00",
+    "dispatch_date":"1/28/21",
+    "dispatch_time":"0:00:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"11600 BLOCK  NORCOM RD",
+    "ucr_general":100,
+    "text_general_code":"Homicide - Criminal",
+    "point_x":-74.99871989,
+    "point_y":40.09705108
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.06837711,40.04177843 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000AECF624A60C452C09D43DFFE58054440",
+    "cartodb_id":2974481,
+    "the_geom_webmercator":"0101000020110F00001C98EE60B7E05FC1191401D1D3955241",
+    "objectid":3319307,
+    "dc_dist":2,
+    "psa":"1",
+    "dispatch_date_time":"2/14/21 0:00",
+    "dispatch_date":"2/14/21",
+    "dispatch_time":"0:00:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"6700 BLOCK  SYLVESTER ST",
+    "ucr_general":100,
+    "text_general_code":"Homicide - Criminal ",
+    "point_x":-75.06837711,
+    "point_y":40.04177843
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2661830,
+    "the_geom_webmercator":"",
+    "objectid":2764288,
+    "dc_dist":39,
+    "psa":"2",
+    "dispatch_date_time":"6/22/21 2:53",
+    "dispatch_date":"6/22/21",
+    "dispatch_time":"2:53:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 1400 W ONTARIO ST ",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault No Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15273,40.0047 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2661959,
+    "the_geom_webmercator":"",
+    "objectid":2764289,
+    "dc_dist":25,
+    "psa":"4",
+    "dispatch_date_time":"4/19/21 10:10",
+    "dispatch_date":"4/19/21",
+    "dispatch_time":"10:10:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"TEMPLE HOSPITAL @ 3401 N BROAD ST ",
+    "ucr_general":400,
+    "text_general_code":"Aggravated Assault Firearm",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.23029654,40.0565983 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000A5EBB22DBDCE52C02DC1F39C3E074440",
+    "cartodb_id":2692264,
+    "the_geom_webmercator":"0101000020110F0000CE54659351F25FC11C1EBC99EE975241",
+    "objectid":2698416,
+    "dc_dist":5,
+    "psa":"3",
+    "dispatch_date_time":"12/19/21 19:09",
+    "dispatch_date":"12/19/21",
+    "dispatch_time":"19:09:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"7900 BLOCK HENRY AV",
+    "ucr_general":200,
+    "text_general_code":"Rape",
+    "point_x":-75.23029654,
+    "point_y":40.0565983
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.13887032,39.96048532 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000003EB25640E3C852C013D8D62EF1FA4340",
+    "cartodb_id":2692327,
+    "the_geom_webmercator":"0101000020110F0000DC76193261E85FC11CC68D714A8A5241",
+    "objectid":2699270,
+    "dc_dist":6,
+    "psa":"1",
+    "dispatch_date_time":"7/14/21 22:25",
+    "dispatch_date":"7/14/21",
+    "dispatch_time":"22:25:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"600 BLOCK N FRONT ST",
+    "ucr_general":200,
+    "text_general_code":"Rape",
+    "point_x":-75.13887032,
+    "point_y":39.96048532
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.12183024,40.01256981 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000AF1D1011CCC752C0F86E35E39B014440",
+    "cartodb_id":2737924,
+    "the_geom_webmercator":"0101000020110F00001A15F2F886E65FC11D83B943AE915241",
+    "objectid":2753989,
+    "dc_dist":25,
+    "psa":"2",
+    "dispatch_date_time":"4/1/21 20:47",
+    "dispatch_date":"4/1/21",
+    "dispatch_time":"20:47:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"300 BLOCK E HUNTING PARK AVE",
+    "ucr_general":1700,
+    "text_general_code":"Other Sex Offenses (Not Commercialized)",
+    "point_x":-75.12183024,
+    "point_y":40.01256981
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.22284639,39.9683922 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000003A45811D43CE52C0CA598E46F4FB4340",
+    "cartodb_id":2738910,
+    "the_geom_webmercator":"0101000020110F000094A6313D82F15FC187D5B08B698B5241",
+    "objectid":2756164,
+    "dc_dist":16,
+    "psa":"2",
+    "dispatch_date_time":"9/10/21 20:37",
+    "dispatch_date":"9/10/21",
+    "dispatch_time":"20:37:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"900 BLOCK N 51ST ST",
+    "ucr_general":1600,
+    "text_general_code":"Prostitution and Commercialized Vice",
+    "point_x":-75.22284639,
+    "point_y":39.9683922
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16631171,39.90581014 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E610000014D9DED9A4CA52C0B4D72F96F1F34340",
+    "cartodb_id":2743840,
+    "the_geom_webmercator":"0101000020110F000023E3D6E25CEB5FC1DF7CA3128A825241",
+    "objectid":2754790,
+    "dc_dist":3,
+    "psa":"3",
+    "dispatch_date_time":"8/15/21 15:43",
+    "dispatch_date":"8/15/21",
+    "dispatch_time":"15:43:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"0 BLOCK CITIZENS BANK WAY",
+    "ucr_general":2200,
+    "text_general_code":"Liquor Law Violations",
+    "point_x":-75.16631171,
+    "point_y":39.90581014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16631171,39.90581014 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E610000014D9DED9A4CA52C0B4D72F96F1F34340",
+    "cartodb_id":2743841,
+    "the_geom_webmercator":"0101000020110F000023E3D6E25CEB5FC1DF7CA3128A825241",
+    "objectid":2754791,
+    "dc_dist":3,
+    "psa":"3",
+    "dispatch_date_time":"8/15/21 15:43",
+    "dispatch_date":"8/15/21",
+    "dispatch_time":"15:43:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"0 BLOCK CITIZENS BANK WAY",
+    "ucr_general":2200,
+    "text_general_code":"Liquor Law Violations",
+    "point_x":-75.16631171,
+    "point_y":39.90581014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.12731884,39.98910913 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000BD7DEBFD25C852C034C3C2209BFE4340",
+    "cartodb_id":2738024,
+    "the_geom_webmercator":"0101000020110F0000AB0C30B81FE75FC14E988BF1598E5241",
+    "objectid":2755277,
+    "dc_dist":26,
+    "psa":"3",
+    "dispatch_date_time":"8/26/21 12:36",
+    "dispatch_date":"8/26/21",
+    "dispatch_time":"12:36:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"2600 BLOCK B ST",
+    "ucr_general":2300,
+    "text_general_code":"Public Drunkenness",
+    "point_x":-75.12731884,
+    "point_y":39.98910914
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.23146421,39.89126042 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000003F09434FD0CE52C0430F4AD214F24340",
+    "cartodb_id":2737951,
+    "the_geom_webmercator":"0101000020110F0000B83A661272F25FC108495C467A805241",
+    "objectid":2754401,
+    "dc_dist":12,
+    "psa":"1",
+    "dispatch_date_time":"11/1/21 17:15",
+    "dispatch_date":"11/1/21",
+    "dispatch_time":"17:15:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"4100 BLOCK ISLAND AV",
+    "ucr_general":1300,
+    "text_general_code":"Receiving Stolen Property",
+    "point_x":-75.23146421,
+    "point_y":39.89126042
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.23113,39.88375 ]
+    },
+    "properties": {
+    "the_geom":"",
+    "cartodb_id":2733513,
+    "the_geom_webmercator":"",
+    "objectid":2753650,
+    "dc_dist":77,
+    "psa":"A",
+    "dispatch_date_time":"5/12/21 14:37",
+    "dispatch_date":"5/12/21",
+    "dispatch_time":"14:37:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"PIA TERMINAL @ 98 PIA WAY ",
+    "ucr_general":1100,
+    "text_general_code":"Fraud",
+    "point_x":null,
+    "point_y":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20776378,39.96625698 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000002C1974004CCD52C0DC50084FAEFB4340",
+    "cartodb_id":2737955,
+    "the_geom_webmercator":"0101000020110F0000BAA3EE7DDEEF5FC1D2BFFC021C8B5241",
+    "objectid":2754405,
+    "dc_dist":16,
+    "psa":"2",
+    "dispatch_date_time":"4/29/21 17:30",
+    "dispatch_date":"4/29/21",
+    "dispatch_time":"17:30:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"4200 BLOCK LANCASTER AV",
+    "ucr_general":1800,
+    "text_general_code":"Narcotic / Drug Law Violations",
+    "point_x":-75.20776378,
+    "point_y":39.96625698
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14358678,40.04434503 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000003B0F9B8630C952C08ACB1219AD054440",
+    "cartodb_id":2738069,
+    "the_geom_webmercator":"0101000020110F0000EB4C4574E4E85FC12F003D1E31965241",
+    "objectid":2756115,
+    "dc_dist":35,
+    "psa":"3",
+    "dispatch_date_time":"1/1/21 17:16",
+    "dispatch_date":"1/1/21",
+    "dispatch_time":"17:16:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"5900 BLOCK N BROAD ST",
+    "ucr_general":2000,
+    "text_general_code":"Offenses Against Family and Children",
+    "point_x":-75.14358678,
+    "point_y":40.04434503
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.18831755,39.93526831 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E6100000D2A00D650DCC52C0B4373ADFB6F74340",
+    "cartodb_id":2691814,
+    "the_geom_webmercator":"0101000020110F0000DE094A4EC1ED5FC1F0047106B7865241",
+    "objectid":2697979,
+    "dc_dist":17,
+    "psa":"2",
+    "dispatch_date_time":"3/24/21 16:43",
+    "dispatch_date":"3/24/21",
+    "dispatch_time":"16:43:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"2600 BLOCK GERRITT ST",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.18831755,
+    "point_y":39.93526831
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.08434392,40.02038575 ]
+    },
+    "properties": {
+    "the_geom":"0101000020E61000000D810AE465C552C0F8C610009C024440",
+    "cartodb_id":2691815,
+    "the_geom_webmercator":"0101000020110F0000E752A1BB73E25FC1A06CE747CA925241",
+    "objectid":2697980,
+    "dc_dist":15,
+    "psa":"1",
+    "dispatch_date_time":"1/21/21 11:12",
+    "dispatch_date":"1/21/21",
+    "dispatch_time":"11:12:00",
+    "hour_":"",
+    "dc_key":202000000000,
+    "location_block":"4800 BLOCK OXFORD AV",
+    "ucr_general":600,
+    "text_general_code":"Thefts",
+    "point_x":-75.08434392,
+    "point_y":40.02038575
+    }
+  }
+]
+}
