@@ -26,10 +26,32 @@
 </head>
 
 <body>
-  <section id="hero" class="text-white tm-font-big tm-parallax">
-    <div id="mapid" style="position:relative;height:100%;"></div>
+  <section id="hero" class="tm-parallax">
+    <div class="container fill" id="hero_grey_block">
+      <div id="mapid"></div>
+    </div>
   </section>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">All Crime Data from 2021 - 2022</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/2021-data">2021 Crime Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/2022-data">2022 Crime Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <section id="introduction" class="tm-section-pad-top">
     <div class="container">
       <div class="row">
@@ -40,16 +62,16 @@
           <div class="tm-intro-text-container">
               <h2 class="tm-text-primary mb-4 tm-section-title">Introduction</h2>
               <p class="mb-4 tm-intro-text">
-                The Town is <strong>simple CSS template</strong> built on Bootstrap v4.1.3 
-                and this is a little parallax layout that you can use for your websites.
+                This map displays district blocks in Philadelphia that are classified as High in Poverty,
+                a coordinate point for each crime in 2021-2022, as well as the 
+                current market value of residential properties in that area.
             </p>
               <p class="mb-5 tm-intro-text">
-                Please tell your friends about our site 
-                <a rel="nofollow" href="https://templatemo.com">templatemo</a>. Thank you.
-                Curabitur dapibus tristique enim a imperdiet. Etiam
-            tristique sem sed condimentum posuere. </p>
+               For more data science projects pertaining to Philadelphia, please refer to this link:
+                <a rel="nofollow" href="https://www.nehla.codes">nehla.codes</a>. Thank you.
+              </p>
               <div class="tm-next">
-                <a href="#work" class="tm-intro-text tm-btn-primary">Read More</a>
+                <a href="https://www.github.com/namin1993" class="tm-intro-text tm-btn-primary">Github</a>
               </div>
           </div>
         </div>
@@ -57,64 +79,63 @@
 
       <div class="row tm-section-pad-top">
         <div class="col-lg-4">
-          <i class="fas fa-4x fa-bus text-center tm-icon"></i>
-          <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
+          <i class="fas fa-4x fa-home text-center tm-icon"></i>
+          <h4 class="text-center tm-text-primary mb-4">Poverty</h4>
           <p>
-            Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
-            nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
-            Duis imperdiet lacus justo.
+            Hover over each district block outlined in Philadelphia to see information on 
+            the percentage of the population living in poverty within that area.
           </p>
         </div>
       
       <div class="col-lg-4 mt-5 mt-lg-0">
-        <i class="fas fa-4x fa-bicycle text-center tm-icon"></i>
-        <h4 class="text-center tm-text-primary mb-4">Nunc sed metus vel nisi</h4>
+        <i class="fas fa-4x fa-gavel text-center tm-icon"></i>
+        <h4 class="text-center tm-text-primary mb-4">Crime</h4>
         <p>
-          Praesent ut finibus leo. Duis et tempus ipsum, id pretium nunc.
-          Vivamus imperdiet sem quis orci pharetra convallis. Nunc a tempus
-          nisi, sed fringilla purus. In hac habitasse platea.
+          Filter out crime according to the Year and the type of Crime committed. 
+          Hover over each point in order to see more information about the crime 
+          that occurred in the area.
         </p>
       </div>
       <div class="col-lg-4 mt-5 mt-lg-0">
         <i class="fas fa-4x fa-city text-center tm-icon"></i>
-        <h4 class="text-center tm-text-primary mb-4">Fusce sed nisi sagittis</h4>
+        <h4 class="text-center tm-text-primary mb-4">Market Value</h4>
         <p>
-          Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit
-          volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi.
-          Vestibulum ante ipsum primis in faucibus.
+          See the current market value of residential properties in Philadelphia.
         </p>
       </div>
     </div>
   </section>
+
   <!-- Contact -->
   <section id="contact" class="tm-section-pad-top tm-parallax-2">
     <div class="container tm-container-contact">
       <div class="row">
           <div class="col-12">
-              <h2 class="mb-4 tm-section-title">Contact Us</h2>
+              <h2 class="mb-4 tm-section-title">Contact Me</h2>
               <div class="mb-5 tm-underline">
                 <div class="tm-underline-inner"></div>
               </div>
               <p class="mb-5">
-                Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui,
-                non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices
-                viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque
-                at at velit.
+                If there are inquiries on projects or contract work you would like for me to look into,
+                please feel free to reach out to me. In the future, I will provide a submission form.
               </p>
           </div>
           
+          <!--
           <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
             <a href="tel:0100200340" class="tm-contact-item-link">
                 <i class="fas fa-3x fa-phone mr-4"></i>
                 <span class="mb-0">010-020-0340</span>
             </a>              
           </div>
+          -->
           <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
             <a href="mailto:info@company.co" class="tm-contact-item-link">
                 <i class="fas fa-3x fa-envelope mr-4"></i>
-                <span class="mb-0">info@company.co</span>
+                <span class="mb-0">namin.general@gmail.com</span>
             </a>              
           </div>
+          <!-- 
           <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
             <a href="https://www.google.com/maps" class="tm-contact-item-link">
                 <i class="fas fa-3x fa-map-marker-alt mr-4"></i>
@@ -127,16 +148,18 @@
               <button type="submit" class="btn tm-btn-submit">Submit</button>
             </form>
           </div>
+          -->
       </div>
     </div>
     <footer class="text-center small tm-footer">
         <p class="mb-0">
-          Copyright &copy; 2019 Company Name 
+          Copyright &copy; 2022 Nehla A. 
           
           - Design: <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
         </p>
       </footer>
   </section>
+
   <script>
 
     function getOffSet(){
@@ -296,7 +319,7 @@
   <!-- API key -->
   <script type="text/javascript" src="static/js/config.js"></script>
   <!-- Maps JavaScript -->
-  <script type="text/javascript" src="../static/js/maps.js"></script>
+  <script type="text/javascript" src= {% block map_route %}{% endblock %}></script>
 
 </body>
 </html>

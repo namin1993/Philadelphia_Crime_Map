@@ -39,16 +39,6 @@ let allDistrictBlocks = new L.LayerGroup();
 let allCrime_2021 = new L.LayerGroup();
 let allCrime_2022 = new L.LayerGroup();
 let allProperties = new L.LayerGroup();
-let theftsLayerGroup_2021 = new L.LayerGroup();
-let homicideLayerGroup_2021 = new L.LayerGroup();
-let arsonLayerGroup_2021 = new L.LayerGroup();
-let aggAssaultLayerGroup_2021 = new L.LayerGroup();
-let sexOffenseLayerGroup_2021 = new L.LayerGroup();
-let liquorLayerGroup_2021 = new L.LayerGroup();
-let fraudLayerGroup_2021 = new L.LayerGroup();
-let drugLayerGroup_2021 = new L.LayerGroup();
-let familyOffenseLayerGroup_2021 = new L.LayerGroup();
-let otherOffenseLayerGroup_2021 = new L.LayerGroup();
 
 // Create panes
 map.createPane('crime2021');
@@ -117,25 +107,14 @@ map.on('overlayremove', function(e) {
 });
 */
 let District_GeoJSON_Path = "../static/json/Philadelphia-Neighborhood_FoodRetail.geojson";
-let Philadelphia_Crime_2021_Path = "../static/json/Philadelphia_Crime_Data-2021_Short.geojson";
+let Philadelphia_Crime_2021_Path = "../static/json/Philadelphia_Crime_Data-2021_No_NaN.geojson";
 let Philadelphia_Crime_2022_Path = "../static/json/Philadelphia_Crime_Data-2022_No_NaN.geojson";
 
 // Add references to the layers to the overlays object.
 let overlays = {
     "DistrictBlocks": allDistrictBlocks,
     "Crime - 2021": allCrime_2021,
-    "Crime - 2022": allCrime_2022,
-    "Residential Property Prices": allProperties,
-    "Thefts - 2021" : theftsLayerGroup_2021,
-    "Homicide - 2021" : homicideLayerGroup_2021,
-    "Arson - 2021" : arsonLayerGroup_2021,
-    "Aggravated Assault - 2021" : aggAssaultLayerGroup_2021,
-    "Sex Offenses - 2021" : sexOffenseLayerGroup_2021,
-    "Liquor Violations - 2021" : liquorLayerGroup_2021,
-    "Fraud & Embezzlement - 2021" : fraudLayerGroup_2021,
-    "Drug Violations - 2021" : drugLayerGroup_2021,
-    "Family & Children Offenses - 2021" : familyOffenseLayerGroup_2021,
-    "Other Crimes - 2021": otherOffenseLayerGroup_2021
+    "Crime - 2022": allCrime_2022
 };
 
 // Add a control to the map that will allow the user to change which layers are visible.
@@ -179,287 +158,6 @@ function getColor(crime_type) {
     crime_type === "Offenses Against Family and Children" ? '#ea48a7' :
                '#7b6773';
 }
-
-// Filter All Theft Crime in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var theft = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Thefts"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Theft from Vehicle"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Robbery No Firearm"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Burglary Non-Residential"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Burglary Residential"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Robbery Firearm"){
-                return true;
-            }
-            else{
-                return false;
-            }
-            //return feature.properties.text_general_code === "Thefts"
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    theft.addTo(theftsLayerGroup_2021);
-});
-theftsLayerGroup_2021.addTo(map);
-
-// Filter All Homicide Crime in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var homicide = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Homicide - Criminal"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    homicide.addTo(homicideLayerGroup_2021);
-});
-homicideLayerGroup_2021.addTo(map);
-
-// Filter All Arson Crime in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var arson = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Arson"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    arson.addTo(arsonLayerGroup_2021);
-});
-arsonLayerGroup_2021.addTo(map);
-
-// Filter All Aggravated Assault Crime in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var aggAssault = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Aggravated Assault No Firearm"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Aggravated Assault Firearm"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    aggAssault.addTo(aggAssaultLayerGroup_2021);
-});
-aggAssaultLayerGroup_2021.addTo(map);
-
-// Filter All Sexual Assault Crime in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var sexOffenses = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Rape"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Other Sex Offenses (Not Commercialized)"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Prostitution and Commercialized Vice"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    sexOffenses.addTo(sexOffenseLayerGroup_2021);
-});
-sexOffenseLayerGroup_2021.addTo(map);
-
-// Filter All Liquor Violations Crime in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var liquorAssault = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Liquor Law Violations"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Public Drunkenness"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    liquorAssault.addTo(liquorLayerGroup_2021);
-});
-liquorLayerGroup_2021.addTo(map);
-
-// Filter All Fraud Embezzlement Crimes in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var fraudCrimes = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Fraud"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Receiving Stolen Property"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Forgery and Counterfeiting"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Embezzlement"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    fraudCrimes.addTo(fraudLayerGroup_2021);
-});
-fraudLayerGroup_2021.addTo(map);
-
-// Filter All Liquor Violations Crime in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var liquorViolation = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Liquor Law Violations"){
-                return true;
-            }
-            else if(feature.properties.text_general_code === "Public Drunkenness"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    liquorViolation.addTo(liquorLayerGroup_2021);
-});
-liquorLayerGroup_2021.addTo(map);
-
-// Filter All Drug Crimes in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var drugViolation = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Narcotic / Drug Law Violations"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    drugViolation.addTo(drugLayerGroup_2021);
-});
-drugLayerGroup_2021.addTo(map);
-
-// Filter All Family Crimes in 2021
-d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
-    var familyCrimes = L.geoJson(data, {
-        pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng);
-        },
-        filter: function (feature, layer) {
-            if (feature.properties.text_general_code === "Offenses Against Family and Children"){
-                return true;
-            }
-            else{
-                return false;
-            }
-        },
-        style: styleInfo,
-        onEachFeature: function(feature, layer){
-            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
-            <br/>Crime: ${feature.properties.text_general_code}`);
-        }
-    });
-    familyCrimes.addTo(familyOffenseLayerGroup_2021);
-});
-familyOffenseLayerGroup_2021.addTo(map);
-
 
 // Hover around Disctrict block gives data on top right 
 var infoBlock = L.control();
@@ -551,6 +249,24 @@ d3.json(Philadelphia_Crime_2021_Path).then(function(data) {
 });
 allCrime_2021.addTo(map);
 
+// Add 2022 Philadelphia Crime Data
+d3.json(Philadelphia_Crime_2022_Path).then(function(data) {
+
+    L.geoJson(data, {
+        // We turn each feature into a circleMarker on the map.
+        // Filter should return 133230
+        pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng);
+        },
+        style: styleInfo,
+        onEachFeature: function(feature, layer){
+            layer.bindPopup(`Date: ${feature.properties.dispatch_date}<br/>Time: ${feature.properties.dispatch_time}<br/>Location: ${feature.properties.location_block}
+            <br/>Crime: ${feature.properties.text_general_code}`)
+        }
+    }).addTo(allCrime_2022);
+});
+allCrime_2022.addTo(map);
+
 // Create a collapsible legend for Crime Type
 let legend = L.control({
   position: "bottomright"
@@ -588,17 +304,16 @@ legend.addTo(map);
 
 
 /*
+*
 * Create a GeoJson layer where you Filter Crime data points by selected Crime type and Year
 * In filter, use an str.regex()expression to determine if feature.properties.dispatch_date == '21'
 * In filter, determine crime type in feature.properties.text_general_code
 * On each filtered data point, create a marker with certain style properties styleInfo/getColor
-* Filter year and crime type from GeoJson file and create a layer
+* Filter crime type from correct GeoJson file (according to year selected) and create a layer
 * Create an array of layers of each type of filtered crime and year into a LayerGroup
 * Add LayerGroup to layerControl to add Overlay on the map
 *
 *
-* Update leaflet?
-* fix error code: leaflet.js:6 Uncaught TypeError: Cannot read properties of undefined (reading 'call')
 */
 
 

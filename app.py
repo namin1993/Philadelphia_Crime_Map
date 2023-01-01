@@ -15,7 +15,21 @@ def index():
     # Find collections
     #news = db_connections.mogodb_client.Final_Project.nyt_api.find()
     #news = news[:4]
-    return render_template("index.html")
+    return render_template("map.html")
+
+@app.route("/2021-data")
+def map_2021():
+    # Find collections
+    #news = db_connections.mogodb_client.Final_Project.nyt_api.find()
+    #news = news[:4]
+    return render_template("map_2021.html")
+
+@app.route("/2022-data")
+def map_2022():
+    # Find collections
+    #news = db_connections.mogodb_client.Final_Project.nyt_api.find()
+    #news = news[:4]
+    return render_template("map_2022.html")
 
 # Question 1: Which organizations are responsible for the most deaths and injuries from 1972-2022?
 '''
