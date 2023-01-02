@@ -53,7 +53,7 @@ map.createPane('crime2022');
 map.getPane('crime2022').style.zIndex = 650;
 
 let District_GeoJSON_Path = "../static/json/Philadelphia-Neighborhood_FoodRetail.geojson";
-let Philadelphia_Crime_2022_Path = "../static/json/Philadelphia_Crime_Data-2022_Short.geojson";
+let Philadelphia_Crime_2022_Path = "../static/json/Philadelphia_Crime_Data-2022_No_NaN.geojson";
 
 // Add references to the layers to the overlays object.
 let overlays = {
